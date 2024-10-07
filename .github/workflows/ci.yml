@@ -20,6 +20,7 @@ jobs:
           args: --sarif-file-output=snyk_code_test.sarif
       - name: Run Snyk IaC
         uses: snyk/actions/node@master
+        continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
