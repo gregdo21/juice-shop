@@ -1,4 +1,7 @@
 name: Snyk Scan
+
+permissions:
+    actions: write
 on: push
 jobs:
   snyk-scan:
