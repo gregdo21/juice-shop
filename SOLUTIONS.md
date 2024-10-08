@@ -15,7 +15,7 @@ file and open a PR! The same goes for any scripts or automated tools you made fo
 > that a solution/script/tool is supposedly working with or that a video
 > guide/solution was recorded for.
 
-## Table of contents
+## Table of contents 
 
 * [Hacking Videos](#hacking-videos)
 * [Walkthroughs](#walkthroughs)
