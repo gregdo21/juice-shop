@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-            - name: Run Snyk sca test
+      - name: Run Snyk sca test
         uses: snyk/actions/node@master
         continue-on-error: true
         env:
